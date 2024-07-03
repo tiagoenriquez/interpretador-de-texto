@@ -1,0 +1,1 @@
+const urlApi = "http://0.0.0.0:7860";

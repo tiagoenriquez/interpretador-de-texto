@@ -1,0 +1,123 @@
+:root {
+    --azul: rgb(0, 0, 255);
+    --azul-claro: rgb(128, 128, 255);
+    --azul-escuro: rgb(0, 0, 128);
+    --azul-muito-claro: rgb(191, 191, 255);
+    --azul-muito-escuro: rgb(0, 0, 64);
+    --azul-pouco-claro: rgb(64, 64, 255);
+    --azul-pouco-escuro: rgb(0, 0, 191);
+    --vermelho: rgb(255, 0, 0);
+    --verde: rgb(0, 128, 0);
+    --familha-da-fonte: serif;
+    --margem-grande: 8px 8px 8px 8px;
+    --margem-pequena: 4px 4px 4px 4px;
+    --padding-texto: 4px 8px 4px 8px;
+    --tamanho-da-fonte: 16px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  button {
+    background-color: var(--azul-escuro);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: var(--familha-da-fonte);
+    font-size: var(--tamanho-da-fonte);
+    margin: var(--margem-grande);
+    padding: var(--padding-texto);
+  }
+
+  button:hover {
+    background-color: var(--azul-pouco-escuro);
+  }
+
+  button:active {
+    background-color: var(--azul);
+  }
+
+  h1 {
+    font-family: var(--familha-da-fonte);
+  }
+
+  label {
+    font-family: var(--familha-da-fonte);
+    font-size: var(--tamanho-da-fonte);
+    margin: var(--margem-grande);
+    padding: var(--padding-texto);
+  }
+
+  p {
+    font-family: var(--familha-da-fonte);
+    font-size: var(--tamanho-da-fonte);
+    margin: var(--margem-grande);
+    padding: var(--padding-texto);
+    width: 512px;
+  }
+
+  textarea {
+    font-family: var(--familha-da-fonte);
+    font-size: var(--tamanho-da-fonte);
+    margin: var(--margem-grande);
+    padding: var(--padding-texto);
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: var(--margem-grande);
+  }
+
+  .erro {
+    color: var(--vermelho);
+    font-family: var(--familha-da-fonte);
+  }
+
+  .espera {
+    background-color: var(--azul-claro);
+    color: white;
+    font-family: var(--familha-da-fonte);
+    font-size: var(--tamanho-da-fonte);
+    margin: var(--margem-grande);
+    padding: var(--margem-grande);
+    text-align: center;
+    width: 512px;
+  }
+
+  .pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--margem-grande);
+  }
+
+  .questao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--margem-grande);
+  }
+
+  .questao:hover {
+    background-color: var(--azul-muito-claro);
+  }
+
+  .questoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--margem-grande);
+  }
