@@ -1,6 +1,9 @@
+---
+license: mit
 title: Interpretador de Texto
-emoji: 🐢
-colorFrom: purple
-colorTo: blue
 sdk: docker
-pinned: false
+emoji: 🚀
+colorFrom: red
+colorTo: blue
+short_description: Usuário entra com texto e pergunta e pede resposta
+---
