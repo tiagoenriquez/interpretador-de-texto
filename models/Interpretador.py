@@ -16,6 +16,6 @@ class Interpretador:
     
     
     def _responder(self):
-        resposta_pipeline = pipeline("question-answering")
+        resposta_pipeline = pipeline("question-answering", model="pierreguillou/bert-large-cased-squad-v1.1-portuguese")
         resposta_pipeline: Pipeline = resposta_pipeline(context = self._texto, question = self._pergunta)
         self._resposta = str(resposta_pipeline["answer"])
